@@ -55,7 +55,7 @@ public class ShiroCasConfiguration {
 	@Bean
 	public EhCacheManager getEhCacheManager() {
 		EhCacheManager em = new EhCacheManager();
-		em.setCacheManagerConfigFile("classpath:config/ehcache-shiro.xml");
+		em.setCacheManagerConfigFile("classpath:conf/ehcache.xml");
 		return em;
 	}
 
