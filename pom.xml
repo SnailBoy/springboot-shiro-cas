@@ -60,6 +60,13 @@
 		</dependency>
 
 
+		<dependency>
+			<groupId>org.apache.xbean</groupId>
+			<artifactId>xbean-spring</artifactId>
+			<version>4.2</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
